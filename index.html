@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body data-theme="dark" data-lang="en">
+    <!-- Supabase CDN -->
+
 
     <!-- Theme Toggle -->
     <button class="theme-toggle" id="themeToggle">
@@ -34,43 +35,121 @@
         </div>
     </nav>
 
-    <!-- Hero -->
+    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 id="hero-title">Computer Science Student</h1>
             <p id="hero-subtitle">Cybersecurity Enthusiast & Poetry Writer</p>
             <div class="hero-buttons">
-                <a href="#repos" class="btn btn-primary" data-key="hero_view_repos">View Repositories</a>
-                <a href="resume.pdf" class="btn btn-secondary" download data-key="hero_download_cv">Download Resume</a>
+                <a href="#repos" class="btn btn-primary" id="view-repos-btn" data-key="hero_view_repos">View Repositories</a>
+                <a href="resume.pdf" class="btn btn-secondary" download id="download-resume-btn" data-key="hero_download_cv">Download Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <div class="gradient-overlay"></div>
+                <div class="image-text">
+                    <h3 id="hero-welcome">Welcome</h3>
+                    <p id="hero-university">West University of Timisoara</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- About -->
+    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <h2 id="about-title">About Me</h2>
-            <div class="about-text" id="about-content"></div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="gradient-overlay"></div>
+                        <div class="image-text">
+                            <h3 id="about-student">Student</h3>
+                            <p id="about-cyber">Cybersecurity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" id="about-content">
+                    Loading...
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Repos -->
+    <!-- Repositories Section -->
     <section id="repos" class="repos">
         <div class="container">
             <h2 id="repos-title">GitHub Repositories</h2>
+            <div class="repos-grid">
+                <div class="repo-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Cybersecurity Project</h3>
+                    <p id="repo1-desc">Curl_Card</p>
+                    <a href="https://github.com/OldSerj/Curl_Card" class="btn btn-primary" id="repo1-btn" data-key="repo_view" target="_blank">View Repo</a>
+                </div>
+                <div class="repo-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Web App</h3>
+                    <p id="repo2-desc">Prev_dot_md</p>
+                    <a href="https://github.com/OldSerj/Prev-dot-md" class="btn btn-primary" id="repo2-btn" data-key="repo_view" target="_blank">View Repo</a>
+                </div>
+                <div class="repo-card">
+                    <i class="fab fa-github"></i>
+                    <h3>Portfolio</h3>
+                    <p id="repo3-desc">This portfolio website</p>
+                    <a href="https://github.com/YOUR_USERNAME/portfolio" class="btn btn-primary" id="repo3-btn" data-key="repo_view" target="_blank">View Repo</a>
+                </div>
+            </div>
+            <div class="github-link">
+                <a href="https://github.com/YOUR_USERNAME" class="btn btn-secondary" id="all-repos-btn" data-key="all_repos" target="_blank">
+                    <i class="fab fa-github"></i> View All Repositories
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Blog -->
+    <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container">
             <h2 id="blog-title">First Blog</h2>
+            <div class="blog-card">
+                <div class="blog-image">
+                    <div class="image-container">
+                        <div class="gradient-overlay"></div>
+                        <div class="image-text">
+                            <h3 id="blog-thoughts">My Thoughts</h3>
+                            <p id="blog-topics">Cybersecurity & Poetry</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <h3 id="blog-main-title">Cybersecurity Insights</h3>
+                    <p id="blog-description">My first blog post about cybersecurity challenges...</p>
+                    <a href="#" class="btn btn-primary" id="read-blog-btn" data-key="read_blog" target="_blank">Read Blog</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p id="footer-text">&copy; 2024 | Computer Science Student</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <h3 id="footer-contact">Contact</h3>
+                    <p>your.email@stud.utm.ro</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/YOUR_USERNAME" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p id="footer-text">&copy; 2024 | Computer Science Student</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
