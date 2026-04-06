@@ -502,6 +502,8 @@ section h2 {
     display: none;
     font-size: 1.8rem;
     cursor: pointer;
+    position: relative;
+    z-index: 1501;
     color: var(--text-primary);
 }
 
@@ -515,17 +517,22 @@ section h2 {
 
     .nav-menu {
         position: fixed;
-        top: 80px;
+        top: 0;
         right: -100%;
         width: 70%;
-        height: calc(100vh - 80px);
+        height: 100vh;
         background: var(--bg-secondary);
+        
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
         gap: 2rem;
+        
         transition: right 0.3s ease;
-        box-shadow: var(--shadow);
+        z-index: 1500;
+        padding: 2rem;
     }
 
     .nav-menu.active {
@@ -601,7 +608,23 @@ section h2 {
 /* EXTRA SMALL DEVICES */
 @media (max-width: 480px) {
     .nav-menu {
-        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: var(--bg-secondary);
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 2rem;
+        
+        transition: right 0.3s ease;
+        z-index: 1500;
+        padding: 2rem;
     }
 
     .hero-content h1 {
@@ -612,3 +635,4 @@ section h2 {
         padding: 80px 0;
     }
 }
+
