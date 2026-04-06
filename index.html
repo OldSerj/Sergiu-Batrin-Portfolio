@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body data-theme="dark" data-lang="en">
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2 id="nav-logo">Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-key="nav_home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-key="nav_about">About</a></li>
+                <li class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ro">RO</button>
+                </li>
+                <li><a href="#repos" class="nav-link" data-key="nav_repos">Repos</a></li>
+                <li><a href="#blog" class="nav-link" data-key="nav_blog">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="hero-title">Computer Science Student</h1>
+            <p id="hero-subtitle">Cybersecurity Enthusiast & Poetry Writer</p>
+            <div class="hero-buttons">
+                <a href="#repos" class="btn btn-primary" data-key="hero_view_repos">View Repositories</a>
+                <a href="resume.pdf" class="btn btn-secondary" download data-key="hero_download_cv">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 id="about-title">About Me</h2>
+            <div class="about-text" id="about-content"></div>
+        </div>
+    </section>
+
+    <!-- Repos -->
+    <section id="repos" class="repos">
+        <div class="container">
+            <h2 id="repos-title">GitHub Repositories</h2>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 id="blog-title">First Blog</h2>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p id="footer-text">&copy; 2024 | Computer Science Student</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
