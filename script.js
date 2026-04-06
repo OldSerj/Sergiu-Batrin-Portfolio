@@ -45,7 +45,7 @@ const translations = {
         'blog-title': 'Why Network Security Matters More Than Ever',
         
         // About image
-        'about-student': 'Student', 'about-cyber': 'Cybersecurity',
+        'about-student': 'Sergiu-George Bătrîn', 'about-cyber': 'Computer Science, Year 1',
         
         // Repos
         'repo1-desc': 'Local web server that fetches rich preview data from URLs',
@@ -84,7 +84,7 @@ const translations = {
         'blog-title': 'De ce Securitatea Rețelei E Mai Importantă Ca Oricând',
         
         // About image
-        'about-student': 'Student', 'about-cyber': 'Securitate Cibernetică',
+        'about-student': 'Bătrîn Sergiu-George', 'about-cyber': 'Informatică, Anul 1',
         
         // Repos
         'repo1-desc': 'Server web local care preia date de previzualizare bogate din URL-uri',
@@ -138,7 +138,7 @@ function loadTranslations(lang) {
 function loadAboutContent(lang) {
     const aboutContent = {
         en: `<h3>Driven by Security & Code</h3>
-             <p>Third-year <strong>Computer Science</strong> student at <strong>West University of Timisoara</strong>. 
+             <p>First-year <strong>Computer Science</strong> student at <strong>West University of Timisoara</strong>. 
              Specializing in cybersecurity with hands-on experience in network security and cryptography. 
              Reliable problem-solver who builds secure systems that work.</p>
              <h4>Core Skills</h4>
@@ -146,11 +146,10 @@ function loadAboutContent(lang) {
                  <li>Network Security & Penetration Testing</li>
                  <li>Cryptography & Secure Coding</li>
                  <li>Python, JavaScript, Linux</li>
-                 <li>CTF Competitions</li>
              </ul>
              <p>When not securing networks, I write <em>poetry</em> - because clear thinking requires balance.</p>`,
         ro: `<h3>Pasionat de Securitate & Cod</h3>
-             <p>Student în anul III la <strong>Informatice</strong>, <strong>Universitatea de Vest din Timișoara</strong>. 
+             <p>Student în anul I la <strong>Informatice</strong>, <strong>Universitatea de Vest din Timișoara</strong>. 
              Specializat în securitate cibernetică cu experiență practică în securitate rețea și criptografie. 
              Rezolv problemele eficient și construiesc sisteme sigure care funcționează.</p>
              <h4>Competențe Principale</h4>
@@ -158,7 +157,6 @@ function loadAboutContent(lang) {
                  <li>Securitate Rețea & Testare Penetrare</li>
                  <li>Criptografie & Cod Securizat</li>
                  <li>Python, JavaScript, Linux</li>
-                 <li>Competiții CTF</li>
              </ul>
              <p>Când nu securizez rețele, scriu <em>poezii</em> - echilibrul mental e cheia clarității.</p>`
     };
