@@ -50,7 +50,7 @@ const translations = {
         // Repos
         'repo1-desc': 'Local web server that fetches rich preview data from URLs',
         'repo2-desc': 'Local web app for previewing Markdown files',
-        'repo3-desc': 'This portfolio - fully responsive with dark/light mode',
+        'repo3-desc': 'Local web server that shortens URLs and tracks analytics',
         'repo_view': 'View Code',
         'all_repos': 'See All Projects',
         
@@ -69,7 +69,7 @@ const translations = {
     ro: {
         // Hero
         'hero-title': 'Student Informatică',
-        'hero-subtitle': 'Specialist Securitate Cibernetică | UVT',
+        'hero-subtitle': 'Entuziast Securitate Cibernetică | UVT',
         'hero-welcome': 'Explorează Lucrările Mele',
         'hero-university': 'Universitatea de Vest din Timișoara',
         'hero_view_repos': 'Explorează Codul Meu',
@@ -87,9 +87,9 @@ const translations = {
         'about-student': 'Student', 'about-cyber': 'Securitate Cibernetică',
         
         // Repos
-        'repo1-desc': 'Scanner securitate rețea construit la antrenamente CTF',
-        'repo2-desc': 'Sistem autentificare securizat cu JWT & criptare',
-        'repo3-desc': 'Acest portofoliu - complet responsiv cu moduri dark/light',
+        'repo1-desc': 'Server web local care preia date de previzualizare bogate din URL-uri',
+        'repo2-desc': 'Aplicație web locală pentru previzualizarea fișierelor Markdown',
+        'repo3-desc': 'Server web local care scurtează URL-uri și urmărește analitici',
         'repo_view': 'Vezi Codul',
         'all_repos': 'Vezi Toate Proiectele',
         
