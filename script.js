@@ -32,7 +32,7 @@ const translations = {
         'hero-title': 'Sergiu-George Bătrîn | Computer Science Student',
         'hero-subtitle': 'Cybersecurity Enthusiast | West University of Timisoara',
         'hero-welcome': 'Explore My Work',
-        'hero-university': 'Universitatea de Vest din Timișoara',
+        'hero-university': 'West University of Timisoara',
         'hero_view_repos': 'Explore My Code',
         'hero_download_cv': 'Get My Resume',
         
