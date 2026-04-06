@@ -46,20 +46,28 @@ body {
 /* Theme Toggle - FIXED */
 .theme-toggle {
     position: fixed;
-    top: 1.5rem;
-    right: 1.5rem;
-    width: 55px;
-    height: 55px;
+    top: 1rem;
+    right: 1rem;
+
+    width: 50px;
+    height: 50px;
+
     border: 2px solid var(--border);
     background: var(--bg-secondary);
     border-radius: 50%;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     cursor: pointer;
-    z-index: 1000;
-    transition: all 0.3s ease;
+    z-index: 2000;
+
     backdrop-filter: blur(20px);
+    transition: all 0.3s ease;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
 }
 
 .theme-toggle:hover {
@@ -74,7 +82,7 @@ body {
 
 /* Navigation */
 .navbar {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
