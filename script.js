@@ -29,7 +29,7 @@ const langButtons = document.querySelectorAll('.lang-btn');
 const translations = {
     en: {
         // Hero
-        'hero-title': 'Sergiu-George Bătrîn | Computer Science Student',
+        'hero-title': 'Sergiu-George Bătrîn | Student la Informatică',
         'hero-subtitle': 'Cybersecurity Enthusiast | West University of Timisoara',
         'hero-welcome': 'Explore My Work',
         'hero-university': 'West University of Timisoara',
@@ -68,7 +68,7 @@ const translations = {
     },
     ro: {
         // Hero
-        'hero-title': 'Student Informatică',
+        'hero-title': 'Bătrîn Sergiu-George | Student la Informatică',
         'hero-subtitle': 'Entuziast Securitate Cibernetică | Universitatea de Vest din Timișoara',
         'hero-welcome': 'Explorează Lucrările Mele',
         'hero-university': 'Universitatea de Vest din Timișoara',
